@@ -8,7 +8,6 @@ export class FlutterService {
     isInited = false;
     constructor() {
         let self = this;
-        alert("flutterSevice");
         document.addEventListener("deviceready", function () {
             flutter.init(() => {
                 self.isInited = true;
@@ -18,11 +17,10 @@ export class FlutterService {
     }
 
     defFlutter() {
-        alert("defFlutter");
         bridgeFlutter.getDate = function (jsonObj, callback) {
             var format = jsonObj.format;
             callback({ date: "日期格式是：" + format });
-            alert("日期格式是：" + format)
+            alert("日期格式是：" + format);
         }
     }
 
@@ -31,6 +29,6 @@ export class FlutterService {
             console.log("打开flutter成功");
         }, function (err) {
 
-        })
+        });
     }
 }

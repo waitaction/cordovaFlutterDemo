@@ -1,4 +1,5 @@
-<ion-item *ngIf="message" [routerLink]="'/message/' + message.id" [detail]="false">
+<!--[routerLink]="'/message/' + message.id"-->
+<ion-item *ngIf="message" (click)="view()"  [detail]="false">
   <div slot="start" [class]="!message.read ? 'dot dot-unread' : 'dot'"></div>
   <ion-label class="ion-text-wrap">
     <h2>

@@ -22,6 +22,6 @@ export class MessageComponent implements OnInit {
   }
 
   view() {
-
+    this.flutterService.open();
   }
 }
