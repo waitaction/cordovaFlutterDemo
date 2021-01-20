@@ -40,7 +40,12 @@
     "codelyzer": "^6.0.0",
     "cordova-android": "^8.0.0",
     "cordova-ios": "^6.1.1",
+    "cordova-plugin-device": "2.0.2",
     "cordova-plugin-flutter": "^1.0.3",
+    "cordova-plugin-ionic-keyboard": "^2.0.5",
+    "cordova-plugin-ionic-webview": "^5.0.0",
+    "cordova-plugin-splashscreen": "5.0.2",
+    "cordova-plugin-statusbar": "2.4.2",
     "cordova-plugin-whitelist": "1",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -58,11 +63,16 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-flutter": {}
+      "cordova-plugin-flutter": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-keyboard": {}
     },
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ]
   }
 }

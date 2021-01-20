@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { FlutterService } from './core/flutter.service';
 
 @Component({
   selector: 'app-root',
@@ -19,9 +20,11 @@ export class AppComponent {
   }
 
   initializeApp() {
+    let self = this;
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+ 
     });
   }
 }

@@ -12,6 +12,21 @@
     },
     "cordova-plugin-flutter": {
       "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
+    },
+    "cordova-plugin-ionic-keyboard": {
+      "PACKAGE_NAME": "org.apache.cordova.myApp"
     }
   },
   "dependent_plugins": {}

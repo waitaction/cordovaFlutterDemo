@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { FlutterService } from '../core/flutter.service';
 import { Message } from '../services/data.service';
 
 @Component({
@@ -9,12 +10,18 @@ import { Message } from '../services/data.service';
 export class MessageComponent implements OnInit {
   @Input() message: Message;
 
-  constructor() { }
+  constructor(
+    public flutterService: FlutterService
+  ) { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
   isIos() {
     const win = window as any;
     return win && win.Ionic && win.Ionic.mode === 'ios';
+  }
+
+  view() {
+
   }
 }

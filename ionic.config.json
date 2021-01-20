@@ -1,5 +1,7 @@
 {
-  "name": "cordovaFlutterDemo",
-  "integrations": {},
+  "name": "testionic",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
