@@ -132,6 +132,7 @@ www
 .project
 .settings/
 .vscode/
+package-lock.json
 
 # Flutter repo-specific
 /bin/cache/
