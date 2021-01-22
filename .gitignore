@@ -230,3 +230,6 @@ app.*.symbols
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
 
+
+flutter_module/ios-framework/Debug/**
+flutter_module/ios-framework/Release/**
