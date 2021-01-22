@@ -38,10 +38,12 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
-    "cordova-android": "^8.0.0",
+    "cordova-android": "^9.0.0",
     "cordova-ios": "^6.1.1",
+    "cordova-plugin-camera": "^5.0.1",
     "cordova-plugin-device": "2.0.2",
-    "cordova-plugin-flutter": "^1.0.3",
+    "cordova-plugin-flutter": "^1.0.4",
+    "cordova-plugin-inappbrowser": "^4.1.0",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
@@ -63,12 +65,16 @@
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
-      "cordova-plugin-flutter": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-camera": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      },
+      "cordova-plugin-flutter": {}
     },
     "platforms": [
       "ios",
