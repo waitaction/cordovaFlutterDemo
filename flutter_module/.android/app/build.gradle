@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.flutter_module.host"
+        applicationId "io.ionic.starter.host"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1

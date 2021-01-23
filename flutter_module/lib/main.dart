@@ -46,8 +46,8 @@ class _MyHomePageState extends State<MyHomePage> {
             children: <Widget>[
               RaisedButton(
                 onPressed: () async {
-                  await CordovaPlatform.invokeMethod(
-                      "takePhoto", {"sourceType": 0});
+                  await CordovaPlatform.finish({"sourceType": 0});
+                 print("abc");
                 },
                 child: Text("调用cordova-plugin-camera"),
               ),

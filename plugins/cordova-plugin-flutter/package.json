@@ -1,52 +1,24 @@
 {
-  "_from": "cordova-plugin-flutter",
-  "_id": "cordova-plugin-flutter@1.0.4",
-  "_inBundle": false,
-  "_integrity": "sha512-uCPEQAXStSTLqqjXmltbcX/V0lMP4KRP0fQXM/X5uvHCp09/CSBMuOf6DcYA2dR9Tsx9vrNgRm9bH8qNn+3A/w==",
-  "_location": "/cordova-plugin-flutter",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "cordova-plugin-flutter",
-    "name": "cordova-plugin-flutter",
-    "escapedName": "cordova-plugin-flutter",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-flutter/-/cordova-plugin-flutter-1.0.4.tgz",
-  "_shasum": "39083b4170069fd001fe9f64d1c622f20e5dcd28",
-  "_spec": "cordova-plugin-flutter",
-  "_where": "/Users/chenqj/Documents/GitHub/cordovaFlutterDemo",
-  "author": {
-    "name": "qijing chen"
-  },
-  "bugs": {
-    "url": "https://github.com/waitaction/cordova-plugin-flutter/issues"
-  },
-  "bundleDependencies": false,
+  "name": "cordova-plugin-flutter",
+  "version": "1.0.4",
+  "description": "cordova-plugin-flutter",
   "cordova": {
     "id": "cordova-plugin-flutter"
   },
-  "deprecated": false,
-  "description": "cordova-plugin-flutter",
-  "homepage": "https://github.com/waitaction/cordova-plugin-flutter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waitaction/cordova-plugin-flutter.git"
+  },
   "keywords": [
     "cordova-plugin-flutter",
     "cordova",
     "cordova-android"
   ],
+  "author": "qijing chen",
   "license": "Apache License Version 2.0",
-  "name": "cordova-plugin-flutter",
   "peerDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/waitaction/cordova-plugin-flutter.git"
+  "bugs": {
+    "url": "https://github.com/waitaction/cordova-plugin-flutter/issues"
   },
-  "version": "1.0.4"
+  "homepage": "https://github.com/waitaction/cordova-plugin-flutter#readme"
 }

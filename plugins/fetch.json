@@ -67,8 +67,8 @@
   },
   "cordova-plugin-flutter": {
     "source": {
-      "type": "registry",
-      "id": "cordova-plugin-flutter"
+      "type": "local",
+      "path": "/Users/chenqj/Documents/GitHub/cordovaFlutterDemo/node_modules/cordova-plugin-flutter"
     },
     "is_top_level": true,
     "variables": {}
