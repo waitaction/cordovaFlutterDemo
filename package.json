@@ -77,8 +77,8 @@
       "cordova-plugin-flutter": {}
     },
     "platforms": [
-      "ios",
-      "android"
+      "android",
+      "ios"
     ]
   }
 }

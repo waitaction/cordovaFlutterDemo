@@ -38,6 +38,7 @@ public class CordovaFlutterActivity extends io.flutter.embedding.android.Flutter
                 }
                 setResult(Activity.RESULT_OK, intent);
                 finish();
+                result.success(true);
             }
         });
     }

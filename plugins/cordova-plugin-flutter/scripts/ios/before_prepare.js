@@ -21,7 +21,7 @@ function iOSFlutterFrameworkBuild() {
 
     function copyiOSFlutterFramework(version) {
         try {
-            console.info("\033[33m *** copyiOSFlutterFramework *** \033[0m");
+            console.info("\033[33m *** copy iOS FlutterFramework *** \033[0m");
             var fs = require('fs');
             var configXmlPath = "config.xml";
             var configXml = fs.readFileSync(configXmlPath);

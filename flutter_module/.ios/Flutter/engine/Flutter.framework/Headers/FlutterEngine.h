@@ -8,11 +8,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#import "FlutterBinaryMessenger.h"
-#import "FlutterDartProject.h"
-#import "FlutterMacros.h"
-#import "FlutterPlugin.h"
-#import "FlutterTexture.h"
+#include "FlutterBinaryMessenger.h"
+#include "FlutterDartProject.h"
+#include "FlutterMacros.h"
+#include "FlutterPlugin.h"
+#include "FlutterTexture.h"
 
 @class FlutterViewController;
 
@@ -321,14 +321,6 @@ FLUTTER_EXPORT
  * Can be nil after `destroyContext` is called.
  */
 @property(nonatomic, readonly) FlutterBasicMessageChannel* settingsChannel;
-
-/**
- * The `FlutterBasicMessageChannel` used for communicating key events
- * from physical keyboards
- *
- * Can be nil after `destroyContext` is called.
- */
-@property(nonatomic, readonly) FlutterBasicMessageChannel* keyEventChannel;
 
 /**
  * The `NSURL` of the observatory for the service isolate.

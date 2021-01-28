@@ -3,7 +3,6 @@ package com.flutter.android;
 import android.app.Activity;
 import android.content.Intent;
 import android.text.TextUtils;
-
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
@@ -77,7 +76,6 @@ public class FlutterCordovaPlugin extends CordovaPlugin {
                             FlutterCordovaPlugin.this.cordova.startActivityForResult((CordovaPlugin) FlutterCordovaPlugin.this, intent, routerName.hashCode());
                         }
                         openCallbackContext = callbackContext;
-//                        callbackContext.success();
                     } catch (Exception ex) {
                         callbackContext.error(ex.getMessage());
                     }
